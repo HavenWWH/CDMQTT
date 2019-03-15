@@ -86,7 +86,7 @@
 
 - (void)connectMQTT {
     
-    [self.sessionManager  connectTo:@"106.14.120.242" port:1883 tls:NO keepalive:10 clean:NO auth:YES user:@"changdao" pass:@"changdao@123" will:NO willTopic:nil willMsg:nil willQos:0 willRetainFlag:NO withClientId:@"wuwenhai00123e23424232r2" securityPolicy:nil certificates: nil protocolLevel:MQTTProtocolVersion50 connectHandler: nil];
+    [self.sessionManager  connectTo:@"" port:1883 tls:NO keepalive:10 clean:NO auth:YES user:@"changdao" pass:@"changdao@123" will:NO willTopic:nil willMsg:nil willQos:0 willRetainFlag:NO withClientId:@"wuwenhai00123e23424232r2" securityPolicy:nil certificates: nil protocolLevel:MQTTProtocolVersion50 connectHandler: nil];
 }
 
 
