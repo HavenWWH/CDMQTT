@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A409F4222775BF0010C183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A409F3222775BF0010C183 /* AppDelegate.m */; };
+		50A409F7222775BF0010C183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A409F6222775BF0010C183 /* ViewController.m */; };
+		50A409FA222775BF0010C183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A409F8222775BF0010C183 /* Main.storyboard */; };
+		50A409FC222775C30010C183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A409FB222775C30010C183 /* Assets.xcassets */; };
+		50A409FF222775C30010C183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A409FD222775C30010C183 /* LaunchScreen.storyboard */; };
+		50A40A02222775C30010C183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A40A01222775C30010C183 /* main.m */; };
+		50A40A0C222775C30010C183 /* CDMQTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A40A0B222775C30010C183 /* CDMQTTTests.m */; };
+		50A40A17222775C30010C183 /* CDMQTTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A40A16222775C30010C183 /* CDMQTTUITests.m */; };
+		50A40A262227B6770010C183 /* MQTTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A40A252227B6770010C183 /* MQTTTools.m */; };
+		8366F5E238AD236CA49F6CFA /* Pods_CDMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F8460A406D3BCDECB8F92 /* Pods_CDMQTT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A40A08222775C30010C183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A409E7222775BF0010C183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A409EE222775BF0010C183;
+			remoteInfo = CDMQTT;
+		};
+		50A40A13222775C30010C183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A409E7222775BF0010C183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A409EE222775BF0010C183;
+			remoteInfo = CDMQTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238E5398F85BFB3265A8F27E /* Pods-CDMQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDMQTT.release.xcconfig"; path = "Target Support Files/Pods-CDMQTT/Pods-CDMQTT.release.xcconfig"; sourceTree = "<group>"; };
+		50A409EF222775BF0010C183 /* CDMQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDMQTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A409F2222775BF0010C183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50A409F3222775BF0010C183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50A409F5222775BF0010C183 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50A409F6222775BF0010C183 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50A409F9222775BF0010C183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50A409FB222775C30010C183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A409FE222775C30010C183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50A40A00222775C30010C183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A40A01222775C30010C183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50A40A07222775C30010C183 /* CDMQTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDMQTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A40A0B222775C30010C183 /* CDMQTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDMQTTTests.m; sourceTree = "<group>"; };
+		50A40A0D222775C30010C183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A40A12222775C30010C183 /* CDMQTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDMQTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A40A16222775C30010C183 /* CDMQTTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDMQTTUITests.m; sourceTree = "<group>"; };
+		50A40A18222775C30010C183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A40A242227B6770010C183 /* MQTTTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQTTTools.h; sourceTree = "<group>"; };
+		50A40A252227B6770010C183 /* MQTTTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTTools.m; sourceTree = "<group>"; };
+		542F8460A406D3BCDECB8F92 /* Pods_CDMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7461F806EFC59B03FF242074 /* Pods-CDMQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDMQTT.debug.xcconfig"; path = "Target Support Files/Pods-CDMQTT/Pods-CDMQTT.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A409EC222775BF0010C183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8366F5E238AD236CA49F6CFA /* Pods_CDMQTT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A40A04222775C30010C183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A40A0F222775C30010C183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A409E6222775BF0010C183 = {
+			isa = PBXGroup;
+			children = (
+				50A409F1222775BF0010C183 /* CDMQTT */,
+				50A40A0A222775C30010C183 /* CDMQTTTests */,
+				50A40A15222775C30010C183 /* CDMQTTUITests */,
+				50A409F0222775BF0010C183 /* Products */,
+				71C080642796CADCF573F559 /* Pods */,
+				97F71B785E8690E462895EB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50A409F0222775BF0010C183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A409EF222775BF0010C183 /* CDMQTT.app */,
+				50A40A07222775C30010C183 /* CDMQTTTests.xctest */,
+				50A40A12222775C30010C183 /* CDMQTTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A409F1222775BF0010C183 /* CDMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				50A409F2222775BF0010C183 /* AppDelegate.h */,
+				50A409F3222775BF0010C183 /* AppDelegate.m */,
+				50A409F5222775BF0010C183 /* ViewController.h */,
+				50A409F6222775BF0010C183 /* ViewController.m */,
+				50A409F8222775BF0010C183 /* Main.storyboard */,
+				50A409FB222775C30010C183 /* Assets.xcassets */,
+				50A409FD222775C30010C183 /* LaunchScreen.storyboard */,
+				50A40A00222775C30010C183 /* Info.plist */,
+				50A40A01222775C30010C183 /* main.m */,
+				50A40A242227B6770010C183 /* MQTTTools.h */,
+				50A40A252227B6770010C183 /* MQTTTools.m */,
+			);
+			path = CDMQTT;
+			sourceTree = "<group>";
+		};
+		50A40A0A222775C30010C183 /* CDMQTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A40A0B222775C30010C183 /* CDMQTTTests.m */,
+				50A40A0D222775C30010C183 /* Info.plist */,
+			);
+			path = CDMQTTTests;
+			sourceTree = "<group>";
+		};
+		50A40A15222775C30010C183 /* CDMQTTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50A40A16222775C30010C183 /* CDMQTTUITests.m */,
+				50A40A18222775C30010C183 /* Info.plist */,
+			);
+			path = CDMQTTUITests;
+			sourceTree = "<group>";
+		};
+		71C080642796CADCF573F559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7461F806EFC59B03FF242074 /* Pods-CDMQTT.debug.xcconfig */,
+				238E5398F85BFB3265A8F27E /* Pods-CDMQTT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97F71B785E8690E462895EB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				542F8460A406D3BCDECB8F92 /* Pods_CDMQTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A409EE222775BF0010C183 /* CDMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A40A1B222775C30010C183 /* Build configuration list for PBXNativeTarget "CDMQTT" */;
+			buildPhases = (
+				6A50027817F7D6F15071741F /* [CP] Check Pods Manifest.lock */,
+				50A409EB222775BF0010C183 /* Sources */,
+				50A409EC222775BF0010C183 /* Frameworks */,
+				50A409ED222775BF0010C183 /* Resources */,
+				09B41B1C6A107BE95D280950 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDMQTT;
+			productName = CDMQTT;
+			productReference = 50A409EF222775BF0010C183 /* CDMQTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A40A06222775C30010C183 /* CDMQTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A40A1E222775C30010C183 /* Build configuration list for PBXNativeTarget "CDMQTTTests" */;
+			buildPhases = (
+				50A40A03222775C30010C183 /* Sources */,
+				50A40A04222775C30010C183 /* Frameworks */,
+				50A40A05222775C30010C183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A40A09222775C30010C183 /* PBXTargetDependency */,
+			);
+			name = CDMQTTTests;
+			productName = CDMQTTTests;
+			productReference = 50A40A07222775C30010C183 /* CDMQTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50A40A11222775C30010C183 /* CDMQTTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A40A21222775C30010C183 /* Build configuration list for PBXNativeTarget "CDMQTTUITests" */;
+			buildPhases = (
+				50A40A0E222775C30010C183 /* Sources */,
+				50A40A0F222775C30010C183 /* Frameworks */,
+				50A40A10222775C30010C183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A40A14222775C30010C183 /* PBXTargetDependency */,
+			);
+			name = CDMQTTUITests;
+			productName = CDMQTTUITests;
+			productReference = 50A40A12222775C30010C183 /* CDMQTTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A409E7222775BF0010C183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "吴文海";
+				TargetAttributes = {
+					50A409EE222775BF0010C183 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					50A40A06222775C30010C183 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50A409EE222775BF0010C183;
+					};
+					50A40A11222775C30010C183 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50A409EE222775BF0010C183;
+					};
+				};
+			};
+			buildConfigurationList = 50A409EA222775BF0010C183 /* Build configuration list for PBXProject "CDMQTT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A409E6222775BF0010C183;
+			productRefGroup = 50A409F0222775BF0010C183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A409EE222775BF0010C183 /* CDMQTT */,
+				50A40A06222775C30010C183 /* CDMQTTTests */,
+				50A40A11222775C30010C183 /* CDMQTTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A409ED222775BF0010C183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A409FF222775C30010C183 /* LaunchScreen.storyboard in Resources */,
+				50A409FC222775C30010C183 /* Assets.xcassets in Resources */,
+				50A409FA222775BF0010C183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A40A05222775C30010C183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A40A10222775C30010C183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09B41B1C6A107BE95D280950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CDMQTT/Pods-CDMQTT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CDMQTT/Pods-CDMQTT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CDMQTT/Pods-CDMQTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A50027817F7D6F15071741F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CDMQTT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A409EB222775BF0010C183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A409F7222775BF0010C183 /* ViewController.m in Sources */,
+				50A40A262227B6770010C183 /* MQTTTools.m in Sources */,
+				50A40A02222775C30010C183 /* main.m in Sources */,
+				50A409F4222775BF0010C183 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A40A03222775C30010C183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A40A0C222775C30010C183 /* CDMQTTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A40A0E222775C30010C183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A40A17222775C30010C183 /* CDMQTTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A40A09222775C30010C183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A409EE222775BF0010C183 /* CDMQTT */;
+			targetProxy = 50A40A08222775C30010C183 /* PBXContainerItemProxy */;
+		};
+		50A40A14222775C30010C183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A409EE222775BF0010C183 /* CDMQTT */;
+			targetProxy = 50A40A13222775C30010C183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50A409F8222775BF0010C183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A409F9222775BF0010C183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50A409FD222775C30010C183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A409FE222775C30010C183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A40A19222775C30010C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50A40A1A222775C30010C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A40A1C222775C30010C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7461F806EFC59B03FF242074 /* Pods-CDMQTT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG4PXE43BN;
+				INFOPLIST_FILE = CDMQTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changDao.CDMQTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A40A1D222775C30010C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238E5398F85BFB3265A8F27E /* Pods-CDMQTT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG4PXE43BN;
+				INFOPLIST_FILE = CDMQTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changDao.CDMQTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50A40A1F222775C30010C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84TRHJ859C;
+				INFOPLIST_FILE = CDMQTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changDao.CDMQTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDMQTT.app/CDMQTT";
+			};
+			name = Debug;
+		};
+		50A40A20222775C30010C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84TRHJ859C;
+				INFOPLIST_FILE = CDMQTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changDao.CDMQTTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDMQTT.app/CDMQTT";
+			};
+			name = Release;
+		};
+		50A40A22222775C30010C183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84TRHJ859C;
+				INFOPLIST_FILE = CDMQTTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changDao.CDMQTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDMQTT;
+			};
+			name = Debug;
+		};
+		50A40A23222775C30010C183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84TRHJ859C;
+				INFOPLIST_FILE = CDMQTTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changDao.CDMQTTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CDMQTT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A409EA222775BF0010C183 /* Build configuration list for PBXProject "CDMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A40A19222775C30010C183 /* Debug */,
+				50A40A1A222775C30010C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A40A1B222775C30010C183 /* Build configuration list for PBXNativeTarget "CDMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A40A1C222775C30010C183 /* Debug */,
+				50A40A1D222775C30010C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A40A1E222775C30010C183 /* Build configuration list for PBXNativeTarget "CDMQTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A40A1F222775C30010C183 /* Debug */,
+				50A40A20222775C30010C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A40A21222775C30010C183 /* Build configuration list for PBXNativeTarget "CDMQTTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A40A22222775C30010C183 /* Debug */,
+				50A40A23222775C30010C183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A409E7222775BF0010C183 /* Project object */;
+}
